@@ -59,8 +59,21 @@
     margin-left: 1rem;
   }
 
-  .avatarAndCart{
-    /* border: 3px solid red; */
+  #mainImage{
+    max-width: 450px;
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+  }
+
+  .carrossel{
+    display: flex;
+    max-width: 450px;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  .carrossel img{
+    max-width: 90px;
+    border-radius: 12px;
   }
 
 </style>
@@ -80,6 +93,21 @@
         <img src="images/image-avatar.png" alt="foto de perfil" id="imageAvatar">
       </div>
     </header>
+  </div>
+
+  <div class="container mt-5">
+    <div class="imagesSneakers">
+      <img src="images/image-product-1.jpg" alt="imagem principal do tenis" id="mainImage">
+      <div class="carrossel">
+        <img src="images/image-product-1-thumbnail.jpg" alt="imagem miniatura do tenis">
+        <img src="images/image-product-2-thumbnail.jpg" alt="detalhes do par de tenis">
+        <img src="images/image-product-3-thumbnail.jpg" alt="tenis de frente">
+        <img src="images/image-product-4-thumbnail.jpg" alt="tenis de lado">
+      </div>
+    </div>
+    <div class="description">
+
+    </div>
   </div>
 </body>
 </html>
